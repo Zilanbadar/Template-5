@@ -1,0 +1,1552 @@
+*{
+    background-color: #242228;
+}
+.container{
+    font-family: Bahnschrift Condensed;
+    width: 98%;
+    height: 1138vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.header{
+    width: 100%;
+    height: 118vh;
+    background-image: linear-gradient(#292929e3,#292929e3,#252525ed,#191919ed), url(backg.png);
+    background-size: cover;
+    margin-top: -8px;
+}
+
+#top {
+    width: 90%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    background-color:transparent;
+}
+
+#top ul{
+    list-style: none;
+    display: flex;
+    margin-left: 15px;
+    justify-content: space-between;
+    color: white;
+    font-size: 16px;
+    background-color:transparent;
+}
+#top ul li{
+    padding-left: 40px;
+    background-color:transparent;
+}
+#top img{
+    width: 95px;
+    height: 80px;
+    margin: 0 auto;
+    margin-right: 155px;
+    background-color:transparent;
+}
+#pizza{
+    float: left;
+    width: 50%;
+    height: 75vh;
+    background-color: transparent;
+}
+#pizza img{
+    width: 90%;
+    height: 90%;
+    background-color: transparent;    
+    margin-top: 100px;
+    margin-left: 60px;
+
+}
+#cont{
+    float: left;
+    width: 40%;
+    height: 75vh;
+    margin-top: 70px;
+    margin-left: 40px;
+    color:#fe8f00;
+    background-color: transparent;
+}
+#cont h1{
+    font-size: 80px;
+    font-weight: bolder;
+    background-color: transparent; 
+}
+#cont p{
+    font-size: 30px;
+    margin-top: -40px;
+    background-color: transparent;
+    color: white;
+}
+#cont button{
+    font-size: 30px;
+    font-family: Bahnschrift Condensed;
+    padding: 10px 20px;
+    color: #242228;
+    background-color:#fe8f00;
+    border: none;
+    border-radius: 4px;
+}
+.about{
+    width: 100%;
+    height: 135vh;
+    display: flex;
+}
+#Aimg{
+    float: left;
+    width: 46%;
+    height: 92vh;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+#Aimg img{
+    width: 100%;
+    height: 100%;
+}
+#Aabout{
+    width: 35%;
+    height: 100vh;
+    margin-top: 100px;
+    margin-left: 55px;
+    justify-items: center;
+}
+#Aabout h1{
+    margin-top: 120px;
+    font-size: 50px;
+    float: left;
+    color: white;
+}
+#Aabout p{
+    font-weight: bold;
+    font-size: 34px;
+    margin-top: 214px;
+    color: white;
+}
+.mid{
+    background-image: url(Shape.png);
+    background-size: cover;
+    width: 100%;
+    height: 233vh;
+}
+.mid img{
+    float: right;
+    width: 30%;
+    height: 106vh;
+    margin-top: -120px;
+    background-color: transparent;
+}
+#foodq{
+    width: 40%;
+    height: 100vh;
+    margin-left: 130px;
+    justify-items: center;
+    color: #ffffff;
+    background-color: transparent;
+}
+#foodq h1{
+    margin-top: -94px;
+    font-size: 50px;
+    float: left;
+    background-color: transparent;
+}
+#foodq p{
+    font-weight: bold;
+    font-size: 39px;
+    margin-top: 395px;
+    background-color: transparent;
+}
+#fi{
+    width: 36%;
+    height: 85vh;
+    float: left;
+    margin-top: 15px;    
+    background-color: transparent;
+}
+#fi img{
+    width: 100%;
+    height: 100%;
+}
+#bi{
+    width: 60%;
+    height: 143vh;
+    float: right;
+    margin-top: -340px;
+    background-color: transparent;
+}
+#bi img{
+    width: 100%;
+    height: 100%;
+}
+.gallery{
+    width: 100%;
+    height: 225vh;
+    display: grid;
+    grid-template-columns: repeat(3,  416px);
+    grid-template-rows:300px repeat(2, 482px);
+    grid-row-gap: 40px;
+    grid-column-gap:42px ;
+}
+.gallery img{
+    width: 100%;
+    height: 100%;
+}
+#ofg{
+    display: flex;
+    grid-column: 1 / 4;
+    align-self: center;
+    justify-self: center;
+    margin-top: 90px;
+}
+#ofg h1{
+    font-size: 60px;
+    color: white;
+    margin-top: 80px;
+}
+.eof{
+    width: 100%;
+    height: 130vh;
+    background-image: url(layer.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#enjoy{
+    width: 50%;
+    height: 80vh;
+    border: 12px solid #fe8f00;
+    background-color: transparent;
+    background-image: linear-gradient(#181a20f2, #181a20eb, #181a20ed);
+}
+#enjoy h1{
+    font-size: 60px;
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+#enjoy p{
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+.om{
+    width: 100%;
+    height: 150vh;
+    display: grid;
+    grid-template-columns: repeat(3, 416px);
+    grid-template-rows: 260px 404px;
+    grid-column-gap: 45px;
+}
+.om img{
+    width: 100%;
+    height: 100%;
+}
+#omh{
+    grid-column: 1 / 4;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+#omh h1{
+    font-size: 55px;
+    color: white;
+    margin-top: 110px;
+}
+.om h2{
+    color: #fe8f00;
+    font-size: 35px;
+    margin-left: 5px;
+}
+.om p{
+    color: #ffffff;
+    margin-left: 5px;
+    font-size: 21px;
+}
+.om h3{
+    color: #fe8f00;
+    font-size: 30px;
+    margin-left: 5px;
+}
+.ebm{
+    width: 100%;
+    height: 110vh;
+}
+#yb{
+    width: 100%;
+    height: 70vh;
+    background-image: url(Rectangle.png);
+    background-size: cover;
+    margin-top: 105px;
+}
+#yb1 {
+    float: left;
+    width: 630px;
+    height: 640px;
+    margin-top: -90px;
+    background-color: transparent;
+}
+#yb1 img{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+#yb2{
+    width: 40%;
+    height: 60vh;
+    float: left;
+    background-color: transparent;
+    margin-left: 55px;
+    margin-top: 25px;
+}
+#yb2 h1{
+    float: left;
+    font-size: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+#yb2 p{
+    font-weight: bold;
+    font-size: 38px;
+    color: white;
+    margin-top: 165px;
+    background-color: transparent;
+}
+#gb{
+    width: 100%;
+    height: 65vh;
+    background-image: url(Rectangle2.png);
+}
+#footer{
+    width: 100%;
+    height: 50vh;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#footer img{
+    width: 400px;
+    height: 80px;
+    background-color: transparent;
+}
+#footer ul{
+    background-color: transparent;
+    list-style: none;
+}
+#footer ul li{
+    display: inline;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: transparent;
+    padding-left:20px;
+    color: white;
+}
+#simg{
+    width: auto;
+    background-color: transparent;
+}
+#simg img{
+    width: 40px;
+    height: 40px;
+    margin-left: 25px;
+    background-color: transparent;
+}
+media screen and (max-width:2560px){
+    .container{
+        height: 1186vh;
+    } 
+    .header{
+        width: 100%;
+        height: 135vh;
+        background-image: linear-gradient(#292929e3,#292929e3,#252525ed,#191919ed), url(backg.png);
+        background-size: cover;
+        margin: -8px 0px -1px 2px;
+    }
+    #top ul li {
+        font-size: 20px;
+        background-color: transparent;
+    }
+    #top img {
+        width: 110px;
+        height: 95px;
+        margin-right: 96px;
+    }
+    #pizza{
+        width: 52%;
+        height: 90vh;
+    }
+    #cont{
+        margin-left: 60px;
+        margin-top: 90px;
+    }
+    .about {
+        height: 140vh;
+    }
+    #Aimg{
+        width: 45%;
+        height: 95vh;
+    }
+    #Aabout{
+        margin-top: 68px;
+    }
+    #Aabout p{
+        font-size: 36px;
+    }
+    .mid {
+        height: 259vh;
+    }
+    .mid img {
+        height: 115vh;
+        margin-top: -70px;
+    }
+    #bi {
+        height: 156vh;
+        margin-top: -330px;
+    }
+    #foodq {
+        width: 38%;
+        margin-left: 150px;
+    }
+    #foodq p{
+        font-size: 40px;
+    }
+    #fi {
+        height: 96vh;
+        margin-top: 50px;
+    }
+    .gallery {
+        height: 260vh;
+        grid-template-columns: repeat(3, 446px);
+        grid-template-rows: 300px repeat(2, 532px);
+        grid-row-gap: 28px;
+        grid-column-gap: 28px;
+    }
+    .eof{
+        width: 100%;
+        height: 156vh;
+    }
+    #enjoy p {
+        font-size: 38px;
+        margin-right: 25px;
+    }
+    .om {
+        width: 100%;
+        height: 180vh;
+        display: grid;
+        grid-template-columns: repeat(3, 446px);
+        grid-template-rows: 260px 480px;
+        grid-column-gap: 28px;
+    }
+    .om h2{
+        font-size: 40px;
+        margin-left: 2px;
+    }
+    .om p{
+        font-size: 23px;
+    }
+}
+@media screen and (max-width:1440px){
+    .container{
+        height: 1186vh;
+    } 
+    .header{
+        width: 100%;
+        height: 135vh;
+        background-image: linear-gradient(#292929e3,#292929e3,#252525ed,#191919ed), url(backg.png);
+        background-size: cover;
+        margin: -8px 0px -1px 2px;
+    }
+    #top ul li {
+        font-size: 20px;
+        background-color: transparent;
+    }
+    #top img {
+        width: 110px;
+        height: 95px;
+        margin-right: 96px;
+    }
+    #pizza{
+        width: 52%;
+        height: 90vh;
+    }
+    #cont{
+        margin-left: 60px;
+        margin-top: 90px;
+    }
+    .about {
+        height: 140vh;
+    }
+    #Aimg{
+        width: 45%;
+        height: 95vh;
+    }
+    #Aabout{
+        margin-top: 68px;
+    }
+    #Aabout p{
+        font-size: 36px;
+    }
+    .mid {
+        height: 259vh;
+    }
+    .mid img {
+        height: 115vh;
+        margin-top: -70px;
+    }
+    #bi {
+        height: 156vh;
+        margin-top: -330px;
+    }
+    #foodq {
+        width: 38%;
+        margin-left: 150px;
+    }
+    #foodq p{
+        font-size: 40px;
+    }
+    #fi {
+        height: 96vh;
+        margin-top: 50px;
+    }
+    .gallery {
+        height: 260vh;
+        grid-template-columns: repeat(3, 446px);
+        grid-template-rows: 300px repeat(2, 532px);
+        grid-row-gap: 28px;
+        grid-column-gap: 28px;
+    }
+    .eof{
+        width: 100%;
+        height: 156vh;
+    }
+    #enjoy p {
+        font-size: 38px;
+        margin-right: 25px;
+    }
+    .om {
+        width: 100%;
+        height: 180vh;
+        display: grid;
+        grid-template-columns: repeat(3, 446px);
+        grid-template-rows: 260px 480px;
+        grid-column-gap: 28px;
+    }
+    .om h2{
+        font-size: 40px;
+        margin-left: 2px;
+    }
+    .om p{
+        font-size: 23px;
+    }
+}   
+@media screen and (max-width:1024px){
+    .container{
+        width: 98%;
+        height: 1048vh;
+    } 
+    .header{
+        height: 102vh;
+        margin: -8px 0px -1px 0px;
+    }
+    #top {
+        margin-top: 30px;
+    }
+    #top ul{
+        margin-left: -14px;
+    }
+    #top ul li {
+        font-size: 15px;
+        background-color: transparent;
+    }
+    #top img {
+        width: 85px;
+        height: 70px;
+        margin-right: 40px;
+    }
+    #pizza{
+        height: 70vh;
+    }
+    #pizza img {
+        margin-top: 67px;
+        margin-left: 35px;
+    }
+    #cont {
+        margin-left: 15px;
+        margin-top: 60px;
+    }
+    #cont h1 {
+        font-size: 52px;
+    }
+    #cont p {
+        font-size: 22px;
+    }
+    #cont button {
+        font-size: 22px;
+    }
+    .about {
+        height: 125vh;
+    }
+    #Aimg{  
+        height: 80vh;
+        margin-top: 95px;
+    }
+    #Aabout {
+        margin-top: 130px;
+        height: 66vh;   
+    }
+    #Aabout h1 {
+        margin-top: 20px;
+        font-size: 45px;
+    }
+    #Aabout p {
+        font-size: 26px;
+        margin-top: 105px;
+    }
+    .mid {  
+        height: 204vh;
+    }
+    .mid img {
+        width: 32%;
+        height: 98vh;
+        margin-top: -94px;
+    }
+    #foodq {
+        width: 38%;
+        margin-left: 135px;
+    }
+    #foodq h1 {
+        font-size: 40px;
+    }
+    #foodq p {
+        font-size: 28px;
+        margin-top: 270px;
+    }
+    #bi {
+        height: 126vh;
+        margin-top: -300px;
+    }
+    #fi {
+        height: 73vh;
+        margin-top: -26px;
+    }
+    .gallery {
+        height: 200vh;
+        grid-template-columns: repeat(3, 310px);
+        grid-template-rows: 210px repeat(2, 380px);
+    }
+    #ofg h1 {
+        font-size: 48px;
+    }
+    .eof{   
+        height: 115vh;
+    }
+    #enjoy {
+        width: 48%;
+        height: 72vh;
+    }
+    #enjoy h1 {
+        font-size: 35px;
+    }
+    #enjoy p {   
+        font-size: 28px;
+    }
+    .om {  
+        height: 152vh;
+        grid-template-columns: repeat(3, 310px);
+        grid-template-rows: 260px 340px;
+    }
+    #omh h1 {
+        font-size: 45px;
+    }
+    .om h2 {
+        font-size: 27px;
+        margin-left: 5px;
+    }
+    .om p {
+        font-size: 16px;
+    }
+    .om h3 {
+        font-size: 25px;
+    }
+    #yb1 {
+        width: 480px;
+        height: 475px;
+        margin-top: -40px;
+    }
+    #yb2 {
+        width: 40%;
+        height: 34vh;
+        margin-left: 40px;
+        margin-top: 95px;
+    }
+    #yb2 h1 {
+        font-size: 38px;
+    }
+    #yb2 p {
+        font-size: 24px;
+        margin-top: 98px;
+    }
+    #footer {
+        height: 46vh;
+    }
+    #footer img {
+        width: 230px;
+        height: 52px;
+    }
+    #footer ul li {
+        font-size: 22px;
+    }
+    #simg img {
+        width: 35px;
+        height: 35px;
+    }
+}
+@media screen and (max-width:768px){
+    .container{
+        height: 780vh;
+        margin-left: 8px
+    } 
+    .header{
+        height: 76vh;
+        margin: -8px 0px -1px 0px;
+    }
+    #top {
+        margin-top: 6px;
+    }
+    #top ul {
+        margin-left: -20px;
+    }
+    #top ul li {
+        font-size: 12px;
+        padding-left: 30px;
+        background-color: transparent;
+    }
+    #top img {
+        width: 65px;
+        height: 55px;
+        margin-right: 18px;
+    }
+    #pizza {
+        height: 50vh;
+    }
+    #pizza img {     
+        width: 88%;
+        height: 88%;
+        margin-top: 42px;
+    }
+    #cont {
+        width: 38%;
+        height: 34vh;
+        margin-left: 15px;
+        margin-top: 40px;
+    }
+    #cont h1 {
+        font-size: 37px;
+    }
+    #cont p {
+        font-size: 16px;
+        margin-top: -20px;
+    }
+    #cont button {
+        font-size: 11px;
+    }
+    .about {
+        height: 92vh;
+    }
+    #Aimg{  
+        height: 60vh;
+        margin-top: 56px;
+        margin-left: 60px;
+    }
+    #Aabout {
+        width: 36%;
+        margin-top: 82px;
+        height: 50vh; 
+        margin-left: 45px;
+  
+    }
+    #Aabout h1 {
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    #Aabout p {
+        font-size: 20px;
+        margin-top: 77px;
+    }
+    .mid {  
+        height: 152vh;
+    }
+    .mid img {
+        width: 33%;
+        height: 75vh;
+        margin-top: -82px;
+    }
+    #foodq {
+        width: 36%;
+        margin-left: 100px;
+    }
+    #foodq h1 {
+        font-size: 28px;
+        margin-top: -55px;
+    }
+    #foodq p {
+        font-size: 20px;
+        margin-top: 195px;
+    }
+    #bi {
+        height: 93vh;
+        margin-top: -348px;
+    }
+    #fi {
+        height: 55vh;
+        margin-top: -145px;
+    }
+    .gallery {
+        height: 138vh;
+        grid-template-columns: repeat(3, 232px);
+        grid-template-rows: 140px repeat(2, 265px);
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
+    }
+    #ofg h1 {
+        font-size: 35px;
+        margin-top: 25px;
+    }
+    .eof {
+        height: 86vh;
+    }
+    #enjoy {
+        width: 48%;
+        height: 55vh;
+        border: 6px solid #fe8f00;
+    }
+    #enjoy h1 {
+        font-size: 26px;
+    }
+    #enjoy p {   
+        font-size: 20px;
+    }
+    .om {
+        height: 110vh;
+        grid-template-columns: repeat(3, 226px);
+        grid-template-rows: 150px 258px;
+    }
+    #omh h1 {
+        font-size: 35px;
+        margin-top: 80px;
+    }
+    .om h2 {
+        font-size: 20px;
+        margin-left: 4px;
+    }
+    .om p {
+        font-size: 15px;
+    }
+    .om h3 {
+        font-size: 18px;
+    }
+    #yb {
+        height: 60vh;
+    }
+    #yb1 {
+        width: 404px;
+        height: 404px;
+        margin-top: -30px;
+    }   
+    #yb2 {
+        width: 33%;
+        height: 42vh;
+        margin-left: 35px;
+        margin-top: 80px;
+    }
+    #yb2 h1 {
+        font-size: 28px;
+    }
+    #yb2 p {
+        font-size: 18px;
+        margin-top: 72px;
+    }
+    #gb {
+        height: 50vh;
+    }
+    #footer {
+        height: 35vh;
+    }
+    #footer img {
+        width: 188px;
+        height: 40px;
+    }
+    #footer ul li {
+        font-size: 16px;
+    }
+    #simg img {
+        width: 28px;
+        height: 28px;
+    }
+}
+@media screen and (max-width:425px){
+    .container{
+        height: 571vh;
+        margin-left: 4px
+    } 
+    .header{
+        height: 41vh;
+        margin: -8px 0px -1px 0px;
+    }
+    #top {
+        margin-top: -8px;
+        width: 90%;
+    }
+    #top ul {
+        margin-left: -20px;
+    }
+    #top ul li {
+        font-size: 7px;
+        padding-left: 10px;
+        background-color: transparent;
+    }
+    #top img {
+        width: 40px;
+        height: 32px;
+        margin-right: 18px;
+    }
+    #pizza {
+        height: 25vh;
+    }
+    #pizza img {     
+        width: 76%;
+        height: 88%;
+        margin-top: 4px;
+    }
+    #cont {
+        width: 36%;
+        height: 22vh;
+        margin-left: 5px;
+        margin-top: 6px;
+    }
+    #cont h1 {
+        font-size: 19px;
+    }
+    #cont p {
+        font-size: 8px;
+        margin-top: -12px;
+    }
+    #cont button {
+        font-size: 7px;
+        padding: 5px 8px;
+    }
+    .about {
+        height: 48vh;
+    }
+    #Aimg {
+        height: 34vh;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    #Aabout {
+        width: 37%;
+        margin-top: 56px;
+        height: 26vh;
+        margin-left: 20px;
+    }
+    #Aabout h1 {
+        margin-top: 2px;
+        font-size: 20px;
+    }
+    #Aabout p {
+        font-size: 11px;
+        margin-top: 40px;
+    }
+    .mid {  
+        height: 83vh;
+    }
+    .mid img {
+        width: 33%;
+        height: 38vh;
+        margin-top: -25px;
+    }
+    #foodq {
+        width: 40%;
+        height: 41vh;
+        margin-left: 54px;
+        margin-top: -115px;
+    }
+    #foodq h1 {
+        font-size: 18px;
+        margin-top: -35px;
+    }
+    #foodq p {
+        font-size: 12px;
+        margin-top: 235px;
+        font-weight: normal;
+    }
+    #bi {
+        height: 51vh;
+        margin-top: -145px;
+    }
+    #fi {
+        height: 30vh;
+        margin-top: -38px;
+    }
+    .gallery {
+        height: 142vh;
+        grid-template-columns: repeat(2, 193px);
+        grid-template-rows: 86px repeat(3, 210px);
+        grid-row-gap: 15px;
+        grid-column-gap: 15px;
+        grid-auto-flow: column;
+    }
+    #ofg {
+        margin-top: 62px;
+    }
+    #ofg h1 {
+        font-size: 25px;
+    }
+    .eof {
+        height: 46vh;
+    }
+    #enjoy {
+        width: 48%;
+        height: 30vh;
+        border: 3px solid #fe8f00;
+    }
+    #enjoy h1 {
+        font-size: 14px;
+        margin-top: 16px;
+    }
+    #enjoy p {
+        font-size: 12px;
+        font-weight: normal;
+        margin-left: 20px;
+        margin-right: 12px;
+    }
+    .om {
+        height: 138vh;
+        grid-template-columns: 400px;
+        grid-template-rows: 100px repeat(3, 205px);
+        grid-auto-flow: column;
+        grid-row-gap: 15px;
+    }
+    .om img {
+        width: 50%;
+        height: 100%;
+        float: left;
+        margin-right: 15px;
+    }
+    #omh h1 {
+        font-size: 28px;
+        margin-top: 60px;
+        margin-left: -46px;
+    }
+    .om h2 {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    .om p {
+        font-size: 14px;
+    }
+    .om h3 {
+        font-size: 16px;
+    }
+    .ebm {
+        width: 100%;
+        height: 75vh;
+    }
+    #yb {
+        height: 33vh;
+        margin-top: 50px;
+    }
+    #yb1 {
+        width: 200px;
+        height: 215px;
+        margin-top: -14px;
+    }  
+    #yb2 {
+        width: 40%;
+        height: 24vh;
+        margin-left: 15px;
+        margin-top: 25px;
+    }
+    #yb2 h1 {
+        font-size: 19px;
+    }
+    #yb2 p {
+        font-size: 12px;
+        margin-top: 50px;
+        font-weight: normal;
+    }
+    #gb {
+        height: 33vh;
+    }
+    #footer {
+        height: 25vh;
+        padding-top: 12px;
+    }
+    #footer ul {
+        margin-left: -40px;
+    }
+    #footer ul li {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    #footer img {
+        width: 106px;
+        height: 28px;
+    }
+    #simg img {
+        width: 20px;
+        height: 20px;
+        margin-left: 16px;
+    }
+}
+@media screen and (max-width:375px){
+    .container{
+        height: 482vh;
+        margin-left: 4px
+    } 
+    .header{
+        height: 36vh;
+        margin: -8px 0px -1px 0px;
+    }
+    #top {
+        margin-top: -8px;
+        width: 90%;
+    }
+    #top ul {
+        margin-left: -20px;
+    }
+    #top ul li {
+        font-size: 7px;
+        padding-left: 10px;
+        background-color: transparent;
+    }
+    #top img {
+        width: 34px;
+        height: 25px;
+        margin-right: 2px;
+    }
+    #pizza {
+        height: 22vh;
+    }
+    #pizza img {
+        width: 76%;
+        height: 88%;
+        margin-top: -4px;
+    }
+    #cont {
+        width: 32%;
+        height: 22vh;
+        margin-left: 5px;
+        margin-top: 6px;
+    }
+    #cont h1 {
+        font-size: 15px;
+    }
+    #cont p {
+        font-size: 7px;
+        margin-top: -12px;
+    }
+    #cont button {
+        font-size: 5px;
+        padding: 4px 6px;
+    }
+    .about {
+        height: 40vh;
+    }
+    #Aimg {
+        height: 30vh;
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+    #Aimg img {
+        width: 90%;
+        height: 100%;
+    }
+    #Aabout {
+        width: 34%;
+        margin-top: 48px;
+        height: 26vh;
+        margin-left: 4px;
+    }
+    #Aabout h1 {
+        margin-top: 2px;
+        font-size: 15px;
+    }
+    #Aabout p {
+        font-size: 9px;
+        margin-top: 32px;
+    }
+    .mid {  
+        height: 73vh;
+    }
+    .mid img {
+        width: 31%;
+        height: 32vh;
+        margin-top: -10px;
+    }
+    #foodq {
+        width: 42%;
+        height: 41vh;
+        margin-left: 35px;
+        margin-top: -135px;
+    }
+    #foodq h1 {
+        font-size: 17px;
+        margin-top: -32px;
+    }
+    #foodq p {
+        font-size: 11px;
+        margin-top: 230px;
+        font-weight: normal;
+    }
+    #bi {
+        height: 45vh;
+        margin-top: -158px;
+    }
+    #fi {
+        height: 27vh;
+        margin-top: -62px;
+    }
+    .gallery {
+        height: 126vh;
+        grid-template-columns: repeat(2, 170px);
+        grid-template-rows: 86px repeat(3, 190px);
+        grid-row-gap: 10px;
+        grid-column-gap: 12px;
+        grid-auto-flow: column;
+    }
+    #ofg {
+        margin-top: 62px;
+    }
+    #ofg h1 {
+        font-size: 25px;
+    }
+    .eof {
+        height: 41vh;
+    }
+    #enjoy {
+        width: 47%;
+        height: 28vh;
+        border: 3px solid #fe8f00;
+    }
+    #enjoy h1 {
+        font-size: 12px;
+        margin-top: 16px;
+    }
+    #enjoy p {
+        font-size: 10px;
+        font-weight: normal;
+        margin-left: 20px;
+        margin-right: 12px;
+    }
+    .om {
+        height: 108vh;
+        grid-template-columns: 352px;
+        grid-template-rows: 62px repeat(3, 170px);
+        grid-auto-flow: column;
+        grid-row-gap: 12px;
+    }  
+    #omh {
+        background-color: transparent;
+    }
+    #omh h1 {
+        font-size: 22px;
+        margin-top: 50px;
+        margin-left: -46px;
+    }
+    .om img {
+        width: 50%;
+        height: 100%;
+        float: left;
+        margin-right: 15px;
+    }
+    .om h2 {
+        font-size: 14px;
+        margin-top: 16px;
+    }
+    .om p {
+        font-size: 12px;
+    }
+    .om h3 {
+        font-size: 15px;
+    }
+    .ebm {
+        width: 100%;
+        height: 60vh;
+    }
+    #yb {
+        height: 25vh;
+        margin-top: 50px;
+    }
+    #yb1 {
+        width: 160px;
+        height: 165px;
+        margin-top: -12px;
+    }  
+    #yb2 {
+        width: 38%;
+        height: 20vh;
+        margin-left: 15px;
+        margin-top: 25px;
+    }
+    #yb2 h1 {
+        font-size: 16px;
+    }
+    #yb2 p {
+        font-size: 10px;
+        margin-top: 41px;
+    }
+    #gb {
+        height: 25vh;
+    }
+    #footer {
+        height: 16vh;
+        padding-top: 12px;
+    }
+    #footer ul {
+        margin-left: -60px;
+    }
+    #footer ul li {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    #footer img {
+        width: 100px;
+        height: 22px;
+    }
+    #simg img {
+        width: 16px;
+        height: 16px;
+        margin-left: 8px;
+    }
+}
+@media screen and (max-width:320px){
+    .container {
+        height: 384vh;
+        margin-left: 2px;
+    }
+    .header{
+        height: 30vh;
+        margin: -8px 0px -1px 0px;
+    }
+    #top {
+        margin-top: -14px;
+        width: 91%;
+    }
+    #top ul {
+        margin-left: -28px;
+    }
+    #top ul li {
+        font-size: 6px;
+        padding-left: 10px;
+        background-color: transparent;
+    }
+    #top img {
+        width: 28px;
+        height: 22px;
+        margin-right: 4px;
+    }
+    #pizza {
+        height: 18vh;
+    }
+    #pizza img {
+        width: 75%;
+        height: 88%;
+        margin-top: -9px;
+    }
+    #cont {
+        width: 30%;
+        height: 14vh;
+        margin-left: 5px;
+        margin-top: -2px;
+    }
+    #cont h1 {
+        font-size: 12px;
+    }
+    #cont p {
+        font-size: 5px;
+        margin-top: -7px;
+    }
+    #cont button {
+        font-size: 5px;
+        padding: 2px 3px;
+    }
+    .about {
+        height: 30vh;
+    }
+    #Aimg {
+        height: 23vh;
+        margin-top: 20px;
+        margin-left: 12px;
+    }
+    #Aimg img {
+        width: 88%;
+        height: 100%;
+    }
+    #Aabout {
+        width: 40%;
+        margin-top: 25px;
+        height: 18vh;
+        margin-left: 4px;
+    }
+    #Aabout h1 {
+        margin-top: 5px;
+        font-size: 14px;
+    }
+    #Aabout p {
+        font-size: 9px;
+        margin-top: 32px;
+    }
+    .mid {  
+        height: 62vh;
+    }
+    .mid img {
+        width: 30%;
+        height: 27vh;
+        margin-top: -10px;
+    }
+    #foodq {
+        width: 40%;
+        height: 41vh;
+        margin-left: 30px;
+        margin-top: -150px;
+    }
+    #foodq h1 {
+        font-size: 15px;
+        margin-top: -30px;
+    }
+    #foodq p {
+        font-size: 9px;
+        margin-top: 228px;
+        font-weight: normal;
+    }
+    #bi {
+        height: 38vh;
+        margin-top: -165px;
+    }
+    #fi {
+        height: 22vh;
+        margin-top: -86px;
+    }
+    .gallery {
+        height: 100vh;
+        grid-template-columns: repeat(2, 144px);
+        grid-template-rows: 46px repeat(3, 158px);
+        grid-row-gap: 8px;
+        grid-column-gap: 10px;
+        grid-auto-flow: column;
+    }
+    #ofg {
+        margin-top: 18px;
+    }
+    #ofg h1 {
+        font-size: 18px;
+    }
+    .eof {
+        height: 35vh;
+    }
+    #enjoy {
+        width: 45%;
+        height: 24vh;
+        border: 2px solid #fe8f00;
+    }
+    #enjoy h1 {
+        font-size: 11px;
+        margin-top: 12px;
+    }
+    #enjoy p {
+        font-size: 9px;
+        font-weight: normal;
+        margin-left: 8px;
+        margin-right: 6px;
+    }
+    .om {
+        height: 82vh;
+        grid-template-columns: 298px;
+        grid-template-rows: 46px repeat(3, 134px);
+        grid-auto-flow: column;
+        grid-row-gap: 6px;
+    }
+    #omh h1 {
+        font-size: 18px;
+        margin-top: 44px;
+        margin-left: -46px;
+    }
+    .om img {
+        width: 48%;
+        height: 100%;
+        float: left;
+        margin-right: 15px;
+    }
+    .om h2 {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .om p {
+        font-size: 11px;
+    }
+    .om h3 {
+        font-size: 13px;
+    }
+    .ebm {
+        width: 100%;
+        height: 46vh;
+    }
+    #yb {
+        height: 20vh;
+        margin-top: 34px;
+    }
+    #yb1 {
+        width: 140px;
+        height: 138px;
+        margin-top: -12px;
+    }  
+    #yb2 {
+        width: 38%;
+        height: 18vh;
+        margin-left: 15px;
+        margin-top: 8px;
+    }
+    #yb2 h1 {
+        font-size: 14px;
+    }
+    #yb2 p {
+        font-size: 10px;
+        margin-top: 36px;
+    }
+    #gb {
+        height: 20vh;
+    }
+    #footer {
+        height: 13vh;
+        padding-top: 12px;
+    }
+    #footer ul {
+        margin-left: -50px;
+    }
+    #footer ul li {
+        font-size: 8px;
+        font-weight: bold;
+        padding-left: 10px;
+    }
+    #footer img {
+        width: 80px;
+        height: 16px;
+    }
+    #simg img {
+        width: 15px;
+        height: 15px;
+        margin-left: 4px;
+    }
+}
